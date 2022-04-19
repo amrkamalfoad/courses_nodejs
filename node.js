@@ -60,7 +60,9 @@ app.put('/api/courses/:id',(req,res)=>{
     }
     const index=courses.indexOf(course)
     courses.splice(index,1)
-    res.send(course)   
+    res.send(course)
+    //send course   
+    console.log('deleted')
  })   
     
 const port=process.env.PORT || 3000

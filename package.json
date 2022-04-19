@@ -1,7 +1,6 @@
 {
   "name": "courses_proj",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "express": "^4.17.3",
     "joi": "^17.6.0",
     "json": "^11.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrkamalfoad/courses_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amrkamalfoad/courses_nodejs/issues"
+  },
+  "homepage": "https://github.com/amrkamalfoad/courses_nodejs#readme",
+  "description": ""
 }
